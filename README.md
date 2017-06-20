@@ -40,11 +40,22 @@ Zorunlu özellik tanımlanması gerekmemektedir. toplamda 10 özellik parametrik
 
 * **setMaxProgress:** Maksimum Progress değeridir, default değeri 100 üzerinden hesaplanacaktır.
 
-* **setStartAngle:** Grafiğin başlangıç noktasını belirler, default değeri 270'dir.
+* **setStartAngle:** Progress başlangıç noktasını belirler, default değeri 270'dir.
 
-* **setInnerCircleMargin:** Grafiğin dışındaki çemberin içerdeki çembere olan uzaklığı. default değeri -1'dir.
+* **setInnerCircleMargin:** Progress dışındaki çemberin içerdeki çembere olan uzaklığı. default değeri -1'dir.
 
-* **setPercentageText:** Grafik değerinin oransal sembolüdür, default değeri % olarak tanımlıdır.
+* **setPercentageText:** Progress değerinin oransal sembolüdür, default değeri % olarak tanımlıdır.
+
+* **setProgressColor:** Progress seçili alanının renk değeridir. ContextCompat.getColor(this, R.color.your_color) şeklinde değer atanmalıdır.
+
+* **setTextColor:** Progress seçili alanının değerinin belirtildiği text renk değeridir.
+
+* **setPercentageColor:** Progress değerinin oransal sembolünün renk değeridir.
+
+* **setInnerCircleColor:** Progress seçili alanın dışında kalan kısmın renk değeridir.
+
+* **setOuterCircleColor:** Progress dışındaki çemberin renk değeridir.
+
 
 
 ### En Kısa Kullanım Şekli
