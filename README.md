@@ -36,12 +36,25 @@ EtiyaProgressView etiyaProgressView;
 
 Zorunlu özellik tanımlanması gerekmemektedir. toplamda 10 özellik parametrik olarak değiştiriliebilir.
 
-* **setProgress:** Progress değeridir, girilmediği taktirde default değer 0 olarak gelecektir.
+* **setProgress:** Progress değeridir, default değeri 0 olarak gelecektir.
 
-* **setMaxProgress:** Progress değeridir, girilmediği taktirde default değer 0 olarak gelecektir.
+* **setMaxProgress:** Maksimum Progress değeridir, default değeri 100 üzerinden hesaplanacaktır.
+
+* **setStartAngle:** Grafiğin başlangıç noktasını belirler, default değeri 270'dir.
+
+* **setInnerCircleMargin:** Grafiğin dışındaki çemberin içerdeki çembere olan uzaklığı. default değeri -1'dir.
+
+* **setPercentageText:** Grafik değerinin oransal sembolüdür, default değeri % olarak tanımlıdır.
 
 
+### En Kısa Kullanım Şekli
 
+```java
+	EtiyaProgressView etiyaProgressView;
+        etiyaProgressView = (EtiyaProgressView) findViewById(R.id.etiyaProgressView);
+        etiyaProgressView.setProgress(40);
+```
+2017 Etiya Progress View for Android (http://www.etiya.com) - Serkan Sekman 
 
 ### Kurulum
 
@@ -62,3 +75,14 @@ Zorunlu özellik tanımlanması gerekmemektedir. toplamda 10 özellik parametrik
 	}
   ```
 
+# Contact
+ - Serkan Sekman
+ - Twitter [@brfnsbl](https://twitter.com/brfnsbl)
+ - LinkedIn https://www.linkedin.com/in/serkan-sekman-60104976/
+ 
+ 
+# Inspiration 
+https://github.com/serkansekman/EtiyaProgressView
+ 
+# License
+EtiyaProgressView is released under the [MIT License.](https://opensource.org/licenses/MIT)
