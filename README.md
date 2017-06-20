@@ -7,7 +7,6 @@
 
 ### Örnek Ekran Görüntüsü
 
-
 <img src="https://media.giphy.com/media/3og0Iw0HPotNtJXoTS/giphy.gif">
 
 <img src="http://i.imgur.com/zx3apaX.jpg">
@@ -34,7 +33,7 @@ EtiyaProgressView etiyaProgressView;
 
 ### Özellikler
 
-Zorunlu özellik tanımlanması gerekmemektedir. toplamda 10 özellik parametrik olarak değiştiriliebilir.
+Zorunlu özellik tanımlaması gerekmemektedir. Toplam 10 özellik parametrik olarak değiştiriliebilir.
 
 * **setProgress:** Progress değeridir, default değeri 0 olarak gelecektir.
 
